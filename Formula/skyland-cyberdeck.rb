@@ -4,8 +4,8 @@
 class SkylandCyberdeck < Formula
   desc "Cyberpunk HUD for macOS: apps launcher, messages panel, notify API"
   homepage "https://github.com/waxdred/skyland-cyberdeck"
-  url "https://github.com/waxdred/skyland-cyberdeck/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "6207f41cc8639b68db81741f40de38fd96a66dd0cd7e882eaad7b1f39cf54d28"
+  url "https://github.com/waxdred/skyland-cyberdeck/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "a441ee86065d81b758c86f5f7a9d14cc9b672106bdcf4dce91d36195239b1e0a"
   license "MIT"
 
   depends_on macos: :ventura
