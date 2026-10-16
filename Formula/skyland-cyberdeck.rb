@@ -13,6 +13,9 @@ class SkylandCyberdeck < Formula
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
     bin.install ".build/release/skyland-cyberdeck"
+    # now playing of the audio deck (0.3.0+): loaded by /usr/bin/perl, looked up in lib/
+    dylib = ".build/release/libMediaRemoteAdapter.dylib"
+    lib.install dylib if File.exist?(dylib)
     (share/"skyland-cyberdeck").install "integrations/herdr"
   end
 
