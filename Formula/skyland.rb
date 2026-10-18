@@ -6,8 +6,8 @@
 class Skyland < Formula
   desc "Hyprland-like tiling window manager for macOS (AeroSpace fork)"
   homepage "https://github.com/waxdred/skyland"
-  url "https://github.com/waxdred/skyland/releases/download/v0.2.0/skyland-v0.2.0.zip"
-  sha256 "859054dd3fa836248cdd888064a8decb0df7c70d3e341bfa91e66d64326053f5"
+  url "https://github.com/waxdred/skyland/releases/download/v0.3.0/skyland-v0.3.0.zip"
+  sha256 "e01eb0d3b4f5fe67a664055e0ed4d8fc8ea6025dd32d927119f2d9230e8bf743"
   license "MIT"
 
   depends_on arch: :arm64
