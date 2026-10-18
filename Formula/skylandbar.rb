@@ -6,6 +6,7 @@ class Skylandbar < Formula
   homepage "https://github.com/waxdred/skylandBar"
   url "https://github.com/waxdred/skylandBar/archive/refs/tags/v0.12.1.tar.gz"
   sha256 "057e1ab36301a04d9cd537e792134497e4c59605821ea236058cbd6ed1aa3cd4"
+  license "MIT"
 
   depends_on macos: :sonoma
 
