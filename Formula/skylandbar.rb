@@ -4,8 +4,8 @@
 class Skylandbar < Formula
   desc "Status bar for macOS in Liquid Glass, the bar of skyland, SketchyBar compatible"
   homepage "https://github.com/waxdred/skylandBar"
-  url "https://github.com/waxdred/skylandBar/archive/refs/tags/v0.13.1.tar.gz"
-  sha256 "782493a71cc30532230332ce5bee4c8de4b8ea25c1f29082b8164b6ecc957457"
+  url "https://github.com/waxdred/skylandBar/archive/refs/tags/v0.14.0.tar.gz"
+  sha256 "94863c0e1b8cf895b4751f94d422dbd170a4c3511e20a9c4d152813d4b1e717d"
   license "MIT"
 
   depends_on macos: :sonoma
